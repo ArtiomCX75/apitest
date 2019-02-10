@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="24" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="8494" started-at="2019-02-10T20:18:51Z" finished-at="2019-02-10T20:18:59Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="8494" started-at="2019-02-10T20:18:51Z" finished-at="2019-02-10T20:18:59Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="loginNegative(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginNegative" duration-ms="2214" started-at="2019-02-10T20:18:51Z" data-provider="LoginNegative" finished-at="2019-02-10T20:18:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Missing email or username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegative -->
+        <test-method status="PASS" signature="loginNegative(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginNegative" duration-ms="392" started-at="2019-02-10T20:18:53Z" data-provider="LoginNegative" finished-at="2019-02-10T20:18:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@klaven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Missing password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegative -->
+        <test-method status="PASS" signature="loginNegative(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginNegative" duration-ms="233" started-at="2019-02-10T20:18:54Z" data-provider="LoginNegative" finished-at="2019-02-10T20:18:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Missing email or username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegative -->
+        <test-method status="PASS" signature="loginNegative(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginNegative" duration-ms="428" started-at="2019-02-10T20:18:54Z" data-provider="LoginNegative" finished-at="2019-02-10T20:18:54Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Missing email or username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegative -->
+        <test-method status="PASS" signature="loginNegative(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginNegative" duration-ms="236" started-at="2019-02-10T20:18:54Z" data-provider="LoginNegative" finished-at="2019-02-10T20:18:55Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Missing email or username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegative -->
+        <test-method status="PASS" signature="loginNegative(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginNegative" duration-ms="233" started-at="2019-02-10T20:18:55Z" data-provider="LoginNegative" finished-at="2019-02-10T20:18:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Missing email or username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegative -->
+        <test-method status="PASS" signature="loginNegative(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginNegative" duration-ms="217" started-at="2019-02-10T20:18:55Z" data-provider="LoginNegative" finished-at="2019-02-10T20:18:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@klaven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Missing password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegative -->
+        <test-method status="PASS" signature="loginNegative(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginNegative" duration-ms="397" started-at="2019-02-10T20:18:55Z" data-provider="LoginNegative" finished-at="2019-02-10T20:18:55Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Missing email or username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegative -->
+        <test-method status="PASS" signature="loginPositive(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginPositive" duration-ms="217" started-at="2019-02-10T20:18:55Z" data-provider="LoginPositive" finished-at="2019-02-10T20:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@klaven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QpwL5tke4Pnpja7X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositive -->
+        <test-method status="PASS" signature="loginPositive(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginPositive" duration-ms="231" started-at="2019-02-10T20:18:56Z" data-provider="LoginPositive" finished-at="2019-02-10T20:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john@klaven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QpwL5tke4Pnpja7X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositive -->
+        <test-method status="PASS" signature="loginPositive(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginPositive" duration-ms="209" started-at="2019-02-10T20:18:56Z" data-provider="LoginPositive" finished-at="2019-02-10T20:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peterklaven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QpwL5tke4Pnpja7X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositive -->
+        <test-method status="PASS" signature="loginPositive(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginPositive" duration-ms="226" started-at="2019-02-10T20:18:56Z" data-provider="LoginPositive" finished-at="2019-02-10T20:18:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@klaven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QpwL5tke4Pnpja7X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositive -->
+        <test-method status="PASS" signature="loginPositive(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginPositive" duration-ms="217" started-at="2019-02-10T20:18:56Z" data-provider="LoginPositive" finished-at="2019-02-10T20:18:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QpwL5tke4Pnpja7X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositive -->
+        <test-method status="PASS" signature="loginPositive(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginPositive" duration-ms="207" started-at="2019-02-10T20:18:57Z" data-provider="LoginPositive" finished-at="2019-02-10T20:18:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[p]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QpwL5tke4Pnpja7X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositive -->
+        <test-method status="PASS" signature="loginPositive(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginPositive" duration-ms="236" started-at="2019-02-10T20:18:57Z" data-provider="LoginPositive" finished-at="2019-02-10T20:18:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peterpeterpeterpeterpeterpeterpeterpeterpeterpeter@klavenklavenklavenklavenklavenklavenklavenklavenk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QpwL5tke4Pnpja7X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositive -->
+        <test-method status="PASS" signature="loginPositive(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginPositive" duration-ms="205" started-at="2019-02-10T20:18:57Z" data-provider="LoginPositive" finished-at="2019-02-10T20:18:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PeTeR@KlAvEn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QpwL5tke4Pnpja7X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositive -->
+        <test-method status="PASS" signature="loginPositive(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginPositive" duration-ms="202" started-at="2019-02-10T20:18:57Z" data-provider="LoginPositive" finished-at="2019-02-10T20:18:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Питер@klaven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QpwL5tke4Pnpja7X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositive -->
+        <test-method status="PASS" signature="loginPositive(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginPositive" duration-ms="205" started-at="2019-02-10T20:18:57Z" data-provider="LoginPositive" finished-at="2019-02-10T20:18:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@klaven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QpwL5tke4Pnpja7X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositive -->
+        <test-method status="PASS" signature="loginPositive(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginPositive" duration-ms="224" started-at="2019-02-10T20:18:58Z" data-provider="LoginPositive" finished-at="2019-02-10T20:18:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@klaven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QpwL5tke4Pnpja7X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositive -->
+        <test-method status="PASS" signature="loginPositive(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginPositive" duration-ms="420" started-at="2019-02-10T20:18:58Z" data-provider="LoginPositive" finished-at="2019-02-10T20:18:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@klaven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QpwL5tke4Pnpja7X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositive -->
+        <test-method status="PASS" signature="loginPositive(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginPositive" duration-ms="203" started-at="2019-02-10T20:18:58Z" data-provider="LoginPositive" finished-at="2019-02-10T20:18:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@klaven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CITYSLICKAcityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QpwL5tke4Pnpja7X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositive -->
+        <test-method status="PASS" signature="loginPositive(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginPositive" duration-ms="199" started-at="2019-02-10T20:18:59Z" data-provider="LoginPositive" finished-at="2019-02-10T20:18:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@klaven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[сшеныдшслф]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QpwL5tke4Pnpja7X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositive -->
+        <test-method status="PASS" signature="loginPositive(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginPositive" duration-ms="215" started-at="2019-02-10T20:18:59Z" data-provider="LoginPositive" finished-at="2019-02-10T20:18:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PeTer11@йцуГЕНklaven_+-=!№;%:?&]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PeTer11@йцуГЕНklaven_+-=!№;%:?&]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QpwL5tke4Pnpja7X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositive -->
+        <test-method status="PASS" signature="loginPositive(java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:tests.LoginTest@1dd6d4b7]" name="loginPositive" duration-ms="232" started-at="2019-02-10T20:18:59Z" data-provider="LoginPositive" finished-at="2019-02-10T20:18:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter@klaven]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cityslicka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QpwL5tke4Pnpja7X]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPositive -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

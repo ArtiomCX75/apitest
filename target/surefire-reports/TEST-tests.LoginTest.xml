@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.LoginTest" time="11.207" tests="24" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\faa11\OneDrive\Documents\Intellij Idea Projects\apitest\target\test-classes;C:\Users\faa11\OneDrive\Documents\Intellij Idea Projects\apitest\target\classes;C:\Users\faa11\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\faa11\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\faa11\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\faa11\.m2\repository\io\qameta\allure\allure-testng\2.6.0\allure-testng-2.6.0.jar;C:\Users\faa11\.m2\repository\io\qameta\allure\allure-descriptions-javadoc\2.6.0\allure-descriptions-javadoc-2.6.0.jar;C:\Users\faa11\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\faa11\.m2\repository\io\qameta\allure\allure-java-commons\2.6.0\allure-java-commons-2.6.0.jar;C:\Users\faa11\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\faa11\.m2\repository\io\qameta\allure\allure2-model-api\1.0-BETA6\allure2-model-api-1.0-BETA6.jar;C:\Users\faa11\.m2\repository\io\qameta\allure\allure2-model-pojo\1.0-BETA6\allure2-model-pojo-1.0-BETA6.jar;C:\Users\faa11\.m2\repository\org\apache\tika\tika-core\1.14\tika-core-1.14.jar;C:\Users\faa11\.m2\repository\io\qameta\allure\allure2-model-jackson\1.0-BETA6\allure2-model-jackson-1.0-BETA6.jar;C:\Users\faa11\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.7.0\jackson-databind-2.7.0.jar;C:\Users\faa11\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.7.0\jackson-annotations-2.7.0.jar;C:\Users\faa11\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.7.0\jackson-core-2.7.0.jar;C:\Users\faa11\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.7.0\jackson-module-jaxb-annotations-2.7.0.jar;C:\Users\faa11\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\faa11\.m2\repository\org\aspectj\aspectjrt\1.8.10\aspectjrt-1.8.10.jar;C:\Users\faa11\.m2\repository\org\jooq\joor\0.9.6\joor-0.9.6.jar;C:\Users\faa11\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\faa11\.m2\repository\org\slf4j\slf4j-nop\1.7.25\slf4j-nop-1.7.25.jar;C:\Users\faa11\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\faa11\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\faa11\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\faa11\AppData\Local\Temp\surefire3817418552965230422\surefirebooter2129898144230204799.jar C:\Users\faa11\AppData\Local\Temp\surefire3817418552965230422 2019-02-10T23-18-45_921-jvmRun1 surefire5759923527402695197tmp surefire_03076735199359166528tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\faa11\OneDrive\Documents\Intellij Idea Projects\apitest\target\test-classes;C:\Users\faa11\OneDrive\Documents\Intellij Idea Projects\apitest\target\classes;C:\Users\faa11\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\faa11\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\faa11\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\faa11\.m2\repository\io\qameta\allure\allure-testng\2.6.0\allure-testng-2.6.0.jar;C:\Users\faa11\.m2\repository\io\qameta\allure\allure-descriptions-javadoc\2.6.0\allure-descriptions-javadoc-2.6.0.jar;C:\Users\faa11\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\faa11\.m2\repository\io\qameta\allure\allure-java-commons\2.6.0\allure-java-commons-2.6.0.jar;C:\Users\faa11\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\faa11\.m2\repository\io\qameta\allure\allure2-model-api\1.0-BETA6\allure2-model-api-1.0-BETA6.jar;C:\Users\faa11\.m2\repository\io\qameta\allure\allure2-model-pojo\1.0-BETA6\allure2-model-pojo-1.0-BETA6.jar;C:\Users\faa11\.m2\repository\org\apache\tika\tika-core\1.14\tika-core-1.14.jar;C:\Users\faa11\.m2\repository\io\qameta\allure\allure2-model-jackson\1.0-BETA6\allure2-model-jackson-1.0-BETA6.jar;C:\Users\faa11\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.7.0\jackson-databind-2.7.0.jar;C:\Users\faa11\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.7.0\jackson-annotations-2.7.0.jar;C:\Users\faa11\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.7.0\jackson-core-2.7.0.jar;C:\Users\faa11\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.7.0\jackson-module-jaxb-annotations-2.7.0.jar;C:\Users\faa11\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\faa11\.m2\repository\org\aspectj\aspectjrt\1.8.10\aspectjrt-1.8.10.jar;C:\Users\faa11\.m2\repository\org\jooq\joor\0.9.6\joor-0.9.6.jar;C:\Users\faa11\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\faa11\.m2\repository\org\slf4j\slf4j-nop\1.7.25\slf4j-nop-1.7.25.jar;C:\Users\faa11\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\faa11\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\faa11\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="C:\Users\faa11\OneDrive\Documents\Intellij Idea Projects\apitest\target/allure-results"/>
+    <property name="user.home" value="C:\Users\faa11"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_102\jre"/>
+    <property name="basedir" value="C:\Users\faa11\OneDrive\Documents\Intellij Idea Projects\apitest"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\faa11\AppData\Local\Temp\surefire3817418552965230422\surefirebooter2129898144230204799.jar;C:\Users\faa11\.m2\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_102\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="user.name" value="faa11"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\faa11\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\faa11\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2018.3.4"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="user.dir" value="C:\Users\faa11\OneDrive\Documents\Intellij Idea Projects\apitest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\PC Connectivity Solution\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\faa11\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Notepad++;D:\Android\sdk\platform-tools;C:\Users\faa11\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_102\bin;C:\flutter\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="loginNegative" classname="tests.LoginTest" time="2.272"/>
+  <testcase name="loginNegative" classname="tests.LoginTest" time="0.4"/>
+  <testcase name="loginNegative" classname="tests.LoginTest" time="0.24"/>
+  <testcase name="loginNegative" classname="tests.LoginTest" time="0.434"/>
+  <testcase name="loginNegative" classname="tests.LoginTest" time="0.241"/>
+  <testcase name="loginNegative" classname="tests.LoginTest" time="0.242"/>
+  <testcase name="loginNegative" classname="tests.LoginTest" time="0.224"/>
+  <testcase name="loginNegative" classname="tests.LoginTest" time="0.403"/>
+  <testcase name="loginPositive" classname="tests.LoginTest" time="0.226"/>
+  <testcase name="loginPositive" classname="tests.LoginTest" time="0.239"/>
+  <testcase name="loginPositive" classname="tests.LoginTest" time="0.217"/>
+  <testcase name="loginPositive" classname="tests.LoginTest" time="0.233"/>
+  <testcase name="loginPositive" classname="tests.LoginTest" time="0.226"/>
+  <testcase name="loginPositive" classname="tests.LoginTest" time="0.218"/>
+  <testcase name="loginPositive" classname="tests.LoginTest" time="0.254"/>
+  <testcase name="loginPositive" classname="tests.LoginTest" time="0.214"/>
+  <testcase name="loginPositive" classname="tests.LoginTest" time="0.21"/>
+  <testcase name="loginPositive" classname="tests.LoginTest" time="0.227"/>
+  <testcase name="loginPositive" classname="tests.LoginTest" time="0.231"/>
+  <testcase name="loginPositive" classname="tests.LoginTest" time="0.439"/>
+  <testcase name="loginPositive" classname="tests.LoginTest" time="0.21"/>
+  <testcase name="loginPositive" classname="tests.LoginTest" time="0.206"/>
+  <testcase name="loginPositive" classname="tests.LoginTest" time="0.221"/>
+  <testcase name="loginPositive" classname="tests.LoginTest" time="0.24"/>
+</testsuite>
